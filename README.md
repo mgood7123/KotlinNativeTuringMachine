@@ -68,7 +68,7 @@ common examples can be found here
 
 this video can explain better than i can
 
-#####Computers Without Memory (Finite State Automata), A Computerphile Video. ( https://www.youtube.com/watch?v=vhiiia1_hC4 )
+##### Computers Without Memory (Finite State Automata), A Computerphile Video. ( https://www.youtube.com/watch?v=vhiiia1_hC4 )
 
 #
 ### how is a Turing Machine built?
