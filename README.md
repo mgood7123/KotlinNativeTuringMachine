@@ -3,7 +3,7 @@
 ```kotlin
 import stateMachine.StateMachines
 
-fun main() {
+fun stateMachine.main() {
     val TM = StateMachines.TuringMachine<Int, Int>()
     TM.debug = true
     TM.setInputBlank(-1)
@@ -106,7 +106,7 @@ that would hinder the result of a computation, this allowing the computation to 
         if (n == 0) true
         else odd(n - 1)
 
-  fun main(args:Array<String>) {
+  fun stateMachine.main(args:Array<String>) {
     // :( java.lang.StackOverflowError
     even(99999)
   }
@@ -293,7 +293,7 @@ that would hinder the result of a computation, this allowing the computation to 
           if (n == 0) null to true
           else ::odd to n-1
   
-  fun main(args:Array<String>) {
+  fun stateMachine.main(args:Array<String>) {
       System.out.println(trampoline(::even, 9999999))
   }
   ```

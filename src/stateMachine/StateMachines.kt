@@ -740,4 +740,7 @@ class StateMachines {
     }
     class TuringMachineInputOnly<InputType> : TuringMachine<InputType, Nothing>()
     class TuringMachineOutputOnly<OutputType> : TuringMachine<Nothing, OutputType>()
+    class QuantumTuringMaching<InputType, OuputType> {
+
+    }
 }

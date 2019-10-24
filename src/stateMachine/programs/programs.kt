@@ -49,6 +49,7 @@ fun <T> StateMachines.Programs.acceptor(head: Int, input: LinkedList<T>, toAccep
     Acceptor.statistics.print()
     println("result: ${o.tape[0]}")
     return StateMachineProgramsAcceptor(Acceptor.getInputTape().head, o.tape[0])
+
 }
 
 fun <T> StateMachines.Programs.acceptor(input: LinkedList<T>, toAccept: LinkedList<T>) =
