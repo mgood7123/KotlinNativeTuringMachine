@@ -373,7 +373,7 @@ next we define our rules
 we can do this in two ways:
 
 * using a `ruleBuilder`
-  * the function `addRule` that has multiple overloads for different conditions that internally call `ruleBuilder.add`
+  * the function `addRule` has multiple overloads for different conditions that internally call `ruleBuilder.add`
   * rules are added in any order
   * this dynamically constructs a synthetic `when` expression
   * a rule consists of the following:
