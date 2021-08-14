@@ -121,14 +121,14 @@ that would hinder the result of a computation, this allowing the computation to 
     ```Kotlin
     fun wasteTime(x: Int) {
        if (x == 0) return
-       a(x-1) // return here is optional
+       wasteTime(x-1) // return here is optional
     }
     ```
     to make the above function `Tail Recursive`, we add the `tailrec` modifier
     ```Kotlin
     tailrec fun wasteTime(x: Int) {
        if (x == 0) return
-       return a(x-1)
+       return wasteTime(x-1)
     }
     ```
     this `Tail Recursion` would be optimized into an efficient loop, probably the following:
